@@ -1,0 +1,106 @@
+/* todolist.css */
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .btn-add {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .taskBg {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskText {
+    font-size: 18px;
+  }
+  
+  .iconsWrap {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delete {
+    color: #dc3545;
+    cursor: pointer;
+    margin-right:20px ;
+  }
+  
+  .adds {
+    background-color: #13d94e;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Toggle Styles */
+  .react-toggle {
+    touch-action: pan-x;
+  }
+  
+  .react-toggle-track {
+    background-color: #adb5bd;
+  }
+  
+  .react-toggle-thumb {
+    border: 1px solid #adb5bd;
+  }
+  
+  .react-toggle--checked .react-toggle-track {
+    background-color: #28a745;
+  }
+  
+  .react-toggle--checked .react-toggle-thumb {
+    border: 1px solid #28a745;
+  }
+  
+  /* Button with Textbox */
+  .button-with-textbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-with-textbox .form-control {
+    margin-right: 10px; /* Adjust the spacing between the button and the textbox */
+  }
+  

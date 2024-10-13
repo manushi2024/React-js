@@ -1,0 +1,72 @@
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+  
+.tags-preview {
+    margin-top: 10px;
+    font-size: 16px;
+    color: whitesmoke;
+    
+  }
+ 
+  td{
+    font-size: medium;
+    font-weight: 500;
+  }
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Adjust as needed */
+    margin-bottom: -1px;
+  }
+  
+  /* Dropdown button */
+  .dropdown button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Style for each item in the dropdown list */
+  .dropdown .dropdown-content span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    width: 150px;
+  }
+  .dropdown .dropdown-content span .active{
+    display: inline;
+  }
+  .dropdown .dropdown-content span .active{
+    display: none;
+  }
+  /* Hover effect for dropdown items */
+  .dropdown .dropdown-content span:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Show the dropdown content when the dropdown button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+  

@@ -1,0 +1,39 @@
+
+
+
+.buttonContainer {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.buttonContainer button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonContainer button:hover {
+  background-color: #f2f2f2;
+}
+
+.closeIcon {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.closeIcon:hover {
+  background-color: #e6e6e6;
+}
